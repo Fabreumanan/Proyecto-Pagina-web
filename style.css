@@ -4,3 +4,51 @@ color:#333;
 font-size: 1.2rem;
 line-height: 1.4em;
 }
+
+p{
+    margin-bottom: 1.6em;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #333;
+    color:white;
+    margin: 2rem 0;
+}
+
+.header a {
+
+    color:white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo-nav-container{
+display: flex;
+justify-content: space-between;
+}
+
+.navegar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.navegar ul li {
+    display: inline-block
+}
+
+.navegar ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navegar ul li a:hover{
+    background: #ccc;
+}
