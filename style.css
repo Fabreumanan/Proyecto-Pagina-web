@@ -31,24 +31,27 @@ p{
 .logo-nav-container{
 display: flex;
 justify-content: space-between;
+align-items: center;
 }
 
-.navegar ul{
+.navigation ul{
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
 
-.navegar ul li {
-    display: inline-block
+.navigation ul li {
+    display: inline-block;
 }
 
-.navegar ul li a {
+.navigation ul li a {
     display: block;
     padding: 0.5rem 1rem;
+    transition: all 0.4s;
 }
 
-.navegar ul li a:hover{
-    background: #ccc;
+.navigation ul li a:hover{
+    background: rgb(61, 61, 61);
 }
+
